@@ -1,0 +1,21 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from flask import Flask, render_template
+
+    app = Flask(__name__)
+
+    @app.errorhandler(404)
+     # your code
+
+    @app.errorhandler(403)
+     # your code
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17370#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 06 Jul 2022 21:21:58 UTC
+record: -1
