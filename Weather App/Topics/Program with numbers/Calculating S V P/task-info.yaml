@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    a = int(input())
+    b = int(input())
+    c = int(input())
+
+    # put your python code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/5919#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 08 Jul 2022 14:15:44 UTC
+record: -1

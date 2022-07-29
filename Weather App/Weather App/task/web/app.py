@@ -1,7 +1,20 @@
-from flask import Flask
+from flask import Flask, render_template
 import sys
 
 app = Flask(__name__)
+
+
+def page_not_found(e):
+    return render_template('404.html'), 404
+
+
+@app.route('/')
+def index():
+    return "Hello, world!"
+
+
+# app.register_error_handler(404, page_not_found)
+
 
 # don't change the following way to run flask:
 if __name__ == '__main__':
